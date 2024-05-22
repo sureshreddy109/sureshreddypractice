@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> simple selectors</title>
+        <style>
+            /*css comments*/
+            #abc{
+                background-color: brown;
+                color: aqua;
+                padding: 30PX;
+                text-align: center;
+                font-size: 75PX;
+            }
+
+            .SURYA{
+                background-color: chartreuse;
+                padding: 30px;
+                text-align: center;
+            }
+            #PARAGRAPH{
+                color: lightsteelblue;
+                background-color: black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!--html comments-->
+        <h1 id="abc">ID SELECTORS</h1>
+        <h1 class="SURYA">CLASS SELECTORS</h1>
+        <P id="PARAGRAPH">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt maiores atque, ducimus itaque, quidem porro quia, commodi perferendis repellat laboriosam mollitia ex nam unde adipisci aliquid reprehenderit reiciendis consequuntur quasi fugit quos molestiae! Fugiat voluptate est exercitationem quam, eos ut amet obcaecati, deleniti, quia consequatur aperiam? Laborum, odio voluptatibus.</P>
+    </body>
+</html>
