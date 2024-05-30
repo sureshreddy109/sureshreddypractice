@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Gradient and box shadow</title>
+        <style>
+            div{
+                width: 200px;
+                height: 200px; 
+                background-color: aqua; 
+                box-shadow: 25px 25px lightcoral, 50px 50px lightgreen, 75px 75px lightslategray;          
+            }
+            #linear{
+                background: repeating-linear-gradient(to bottom right, blue, red 10%, green 20%, yellow 30%);
+            }
+            #radial{
+                background-image: repeating-radial-gradient(red 10%, blue 20%, orange 30%,green 40%);
+            }
+            #conic{
+                background-image: conic-gradient(pink 45deg, blue 105deg ,red 210deg);
+                border-radius: 50%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Gradient</h1>
+        <div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Linear gradient</h3>
+        <div id="linear">
+            linear gradient
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Radial gradient</h3>
+        <div id="radial">
+            radial gradient
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>conic gradient</h3>
+        <div id="conic">
+            conic gradient
+        </div>
+    </body>
+</html>
