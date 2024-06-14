@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital website</title>
+    <head>
+        <style>
+            body {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #938484;
+            }
+            
+            header {
+                background-color: #333;
+                color: white;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            
+            header h1 {
+                margin: 0;
+                background-color:whitesmoke;
+                margin: 10px;
+                padding: 15px;
+                color: black;
+                font-weight: 300;
+                font-style: initial;
+                font-size: 50px;
+            }
+            
+            nav ul {
+                list-style: none;
+                padding: 0;
+            }
+            
+            nav ul li {
+                display: inline;
+                margin: 0 1rem;
+            }
+            
+            nav ul li a {
+                color: black;
+                text-decoration: none;
+            }
+            .slider{
+                    position: relative;
+                    width: 60%;
+                    overflow: hidden;
+                }
+                .images{
+                    display: flex;
+                    width: 100%;
+                }
+            .images img{
+                   height: 600px;
+                   width: 100%;
+                   transition: all 0.15s ease; 
+                }
+                .images input{
+                    display: none;
+                }
+                .dots{
+                    display: flex;
+                    justify-content: center;
+                    margin: 5px;
+                }
+                .dots label {
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    border: solid white 3px;
+                    cursor: pointer;
+                    transition: all 0.15s ease;
+                    margin: 3px;
+                }
+                .dots label:hover{
+                    background-color: lightcoral ;
+                }
+                #img1:checked ~ .m1{
+                    margin-left: 0;
+                }
+                #img2:checked ~ .m2{
+                    margin-left: -100%;
+                }
+                #img3:checked ~ .m3{
+                    margin-left: -200%;
+                }
+                #img4:checked ~ .m4{
+                    margin-left: -300%;
+                }
+                #img5:checked ~ .m5{
+                    margin-left: -400%;
+                }
+                #img6:checked ~ .m6{
+                    margin-left: -500%;
+                }
+    </style>
+       
+    </head>
+    <body>
+        <header>
+        
+            <h1>SURYA MULTISPECIALITY HOSPITAL</h1>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our specialities</a></li>
+                    <li><a href="#">Our doctors</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2" checked>
+                <input type="radio" name="slide" id="img3" checked>
+                <input type="radio" name="slide" id="img4" checked>
+                <input type="radio" name="slide" id="img5" checked>
+                <input type="radio" name="slide" id="img6" checked>
+                <img src="https://images.pexels.com/photos/1692693/pexels-photo-1692693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="m1" alt="img1">
+                <img src="https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="m2" alt="img2" >
+                <img src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="m3" alt="img3" >
+                <img src="https://images.pexels.com/photos/3845806/pexels-photo-3845806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="m4" alt="img4" >
+                <img src="https://media.istockphoto.com/id/1418999473/photo/doctors-comforting-disabled-elderly-patient.jpg?s=2048x2048&w=is&k=20&c=dM3KXMLR8kIKBjitOQJWSyT8n3WQnI5OlX2Wokh4X2I="
+                class="m5" alt="img5" >
+                <img src="https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="m6" alt="img6" >
+               
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+                <label for="img5"></label>
+                <label for="img6"></label>
+
+            </div>
+        </div>
+
+    </body>
+</html>
