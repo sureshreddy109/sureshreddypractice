@@ -1,0 +1,4 @@
+const surya=()=>{
+    console.log("wellcome suresh reddy")
+}
+surya()
