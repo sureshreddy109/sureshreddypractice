@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <title>events examples</title>
+    <body>
+
+    </body>
+    <body>
+    <h1>Onclick event in html</h1>
+        <button type="button" onclick="WELCOME()"> CLICK ME..</button>
+        <script>
+            function WELCOME(){
+                alert("HELLO WELCOME EVENTS");
+            }
+        </script>
+    </body>
+</html>
