@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <title>onchangeevent</title>
+    <head></head>
+    <body>
+        <h1>onchange event</h1>
+        <select id="selection" onchange="surya()">
+        <option value="JAVA">JAVA</option>
+        <option value="PHYTHON">PHYTHON</option>
+        <option value="SQL">SQL</option>
+        <option value="JS">JS</option>
+        <option value="WORDPRESS">WORDPRESS</option>
+        <option value="REACT">REACT</option>
+        </select>
+        <P id="one"> </P>
+        <script>
+            function surya(){
+              var x=document.getElementById("selection").value;
+              document.getElementById("one").innerHTML="YOU ARE SELECTED :" +x;
+            }
+        </script>
+
+    </body>
+</html>
