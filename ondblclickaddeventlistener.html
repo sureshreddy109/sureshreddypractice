@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <title>events examples</title>
+   <head>
+
+   </head>
+   <body>
+    <h1>ONDBLCLICKEVNT ADDEVENTLISTENER</h1>
+    <p id="one">DOUBLE-CLICK</p>
+    <script>
+        document.getElementById("one").addEventListener("dblclick", surya);
+            function surya(){
+                document.getElementById("one").innerHTML="REACTJS";
+                document.getElementById("one").style.color="orange";
+                document.getElementById("one").style.background="lightgreen";
+            }
+        
+    </script>
+   </body>
+</html>
