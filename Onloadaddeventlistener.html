@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <title>onload events</title>
+    <head>
+
+    </head>
+    <body>
+        <h1>onload event addeventlistener</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYJt-KMbjKtD7TXmcG_g4wjqae1hYDME2FQ&s" id="imgone" alt="cartoon" width="400" height="400">
+        <p id="one"> </p>
+        <script>
+         document.getElementById("imgone").addEventListener("load", surya);
+         function surya(){
+            document.getElementById("one").innerHTML="IMAGE ALREADY LOADED....";
+         }   
+        </script>
+    </body>
+</html>
