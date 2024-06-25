@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+<title>navigation bar</title>
+<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+<html>
+   <head>
+    <style>
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        li a{
+            background-color: coral;
+            width: 90px;
+            display: block;
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+        }
+        li a.active{
+            background-color: turquoise;
+            color: sienna;
+        }
+        li a:hover:not(.active){
+            background-color: crimson;
+            color: black;
+        }
+    </style>
+   </head>
+   <body>
+    <h1>Navigation Bars:</h1>
+    <ul>
+        <li><a class="active" href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#servises">SERVISES</a></li>
+    </ul>
+   </body>
+</html>
